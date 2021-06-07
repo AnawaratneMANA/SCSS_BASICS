@@ -5,10 +5,11 @@
     @return map-get($font-weights, $weight-name);
 }
 
-@mixin flexCenter {
+@mixin flexCenter($direction) {
     display: flex;
     justify-content: center;
     align-items: center;  
+    flex-direction:$direction;
 }
 body {
     background: $primary-color;
@@ -16,7 +17,7 @@ body {
     
 }
 .main {
-    @include flexCenter();
+    @include flexCenter(column);
     width: 80%;
     margin: 0 auto;
     #{&}_paragraph {
