@@ -13,6 +13,16 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../img/model-1.jpg) center top;
   background-size: cover;
 }
+.home_name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #fff;
+}
+.home_name--last {
+  color: #ff652f;
+  font-weight: 700;
+}
 
 body {
   background: #272727;
@@ -49,6 +59,7 @@ main .social-icons {
 }
 main a {
   padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 main a:hover {
   color: #ff652f;
