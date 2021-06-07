@@ -11,6 +11,15 @@
     align-items: center;  
     flex-direction:$direction;
 }
+
+@mixin theme($lite-theme: true){
+    @if $lite-theme {
+        background: lighten ($primary-color, 100%);
+        color: darken($text-color, 100%);
+    }
+
+}
+
 body {
     background: $primary-color;
     color: $text-color;
@@ -26,4 +35,7 @@ body {
             color: pink;
         }
     }
+}
+.light {
+    @include theme($lite-theme: true);
 }

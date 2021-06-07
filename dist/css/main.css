@@ -22,4 +22,9 @@ body {
 }
 .main .main_paragraph:hover {
   color: pink;
+}
+
+.light {
+  background: lighten #666666, 100%;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
