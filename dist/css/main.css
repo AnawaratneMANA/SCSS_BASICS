@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 80%;
   margin: 0 auto;
 }
@@ -22,6 +22,11 @@ body {
 }
 .main .main_paragraph:hover {
   color: pink;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
 }
 
 .light {
