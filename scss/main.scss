@@ -1,12 +1,9 @@
-    $primary-color: #666666;
-    $accent-color: #ff652f;
-    $text-color: #fff;
-    $font-weights: (
-        'regular': 400,
-        "medium": 500, 
-        "bold": 700
-    );
-    
+@import './resets';    
+@import "./variables"; 
+
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name);
+}
 body {
     background: $primary-color;
     color: $text-color;
@@ -16,7 +13,7 @@ body {
     width: 80%;
     margin: 0 auto;
     #{&}_paragraph {
-        font-weight: map-get($font-weights, bold );
+        font-weight: weight(bold);
         &:hover {
             color: pink;
         }
