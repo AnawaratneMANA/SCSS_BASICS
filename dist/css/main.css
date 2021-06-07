@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: calc(80% - 200px);
+  width: 40%;
   margin: 0 auto;
 }
 .main .main_paragraph1, .main .main_paragraph2 {
