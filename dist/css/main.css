@@ -17,7 +17,7 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid white;
 }
 .home_name--last {
   color: #ff652f;
@@ -37,7 +37,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #FFF;
+  color: white;
   text-decoration: none;
 }
 
