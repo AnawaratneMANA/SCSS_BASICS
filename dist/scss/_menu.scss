@@ -79,7 +79,12 @@
         @include transition-ease;
 
         &.open {
-            transform: translateY(0);
+            transform: translateY(0)
+        }
+
+        &_item{
+            transform: translateY(100vw);
+            @include transition-ease;
         }
     }
 }

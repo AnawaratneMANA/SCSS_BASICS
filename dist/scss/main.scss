@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+.text-secondary {
+    color: $secondary-color;
+}
+
 header {
     position: fixed;
     z-index: 2;
